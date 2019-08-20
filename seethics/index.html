@@ -1,0 +1,814 @@
+ 	<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, in		itial-scale=1.0">
+	<title>BatuCation - Beranda</title>
+	<link rel="icon" href="assets/img/Batufooter copy.png">
+	<link rel="stylesheet" href="assets/css/colorfun.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
+	<link rel="stylesheet" type="text/css" href="assets/css/navbar.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/style1.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/animation.css">
+	<link rel="stylesheet" href="assets/vendor/slick/slick-theme.css">
+	<link rel="stylesheet" href="assets/vendor/slick/slick.css">
+	<link rel="stylesheet" href="assets/css/pages.css">
+
+
+	<style>
+	     body {
+				  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+					}
+					.backtotop {
+						position: fixed;
+						bottom: 10px;
+						right: 10px;
+						width: 50px;
+					}
+</style>
+
+</head>
+<body>
+	<center>
+		<div class="preloader">
+			<div class="loading">
+				<img src="assets/img/BCanimate.gif" width="250">
+			</div>
+		</div>
+	</center>
+	<img class="backtotop" src="assets/img/backtop.png" alt="" onclick="atas()">	
+
+	<div class="black-transparent"></div>
+	<nav class="nav" id="nav" >
+		<div class="mobile-nav">
+
+			<i class="fa fa-bars toggle" id="toggle"></i>
+		</div>
+		<ul class="menu" id="menu">
+			<li class="nav-brand"><img src="assets/img/BC1.png" alt="batucation"></li>
+			<li><input class="nav-search" type="text" placeholder="Cari sesuatu..." onclick="Wwidth()"></li>
+			<li><a href="index.html" class="act">Home</a></li>
+			<li><a href="assets/pages/akses.html">Preparation</a></li>
+			<li><a href="assets/pages/discover.html">Discover</a></li>
+			<li id="dropdown"><a href="assets/pages/tourism.html" id="dropped-down"><i class="fa fa-angle-down" aria-hidden="true"></i>&nbsp;&nbsp;Tourism</a>
+				<ul class="menu-dropdown">
+					<li class="menu-dropdown-1"><span class="color-gradientblue"></span><span class="color-red"></span><a href="assets/pages/destination.html">Destination</a></li>
+					<li class="menu-dropdown-2" style="transition-delay: 0.1s"><span class="color-gradientblue"></span><span class="color-red"></span><a href="assets/pages/hotels.html">Hotels</a></li>
+					<li class="menu-dropdown-3" style="transition-delay: 0.2s"><span class="color-gradientblue"></span><span class="color-red"></span><a href="assets/pages/culinary.html">Culinary</a></li>
+					<li class="menu-dropdown-4" style="transition-delay: 0.3s"><span class="color-gradientblue"></span><span class="color-red"></span><a href="assets/pages/events.html">Events</a></li>
+				</ul>
+			</li>
+			<li><a href="assets/pages/gallery.html">Gallery</a></li>
+			<li><a href="assets/pages/login.html" class="login-btn">Login</a></li>
+		</ul>
+	</nav>
+	<div id="intro">
+		<div class="section md-padding h-100 d-flex">
+						<div class="bg-img" style="background-image: url('assets/img/wa1.jpg')">
+
+						</div>
+						<div class="container m-auto">
+										<div class="row">
+														<!-- home content -->
+														<div class="col-md-12 col-md-offset-1">
+																		<div class="home-content text-center">
+																			<a href="#otonomi">
+																			<input type="button" value="Pelajari" class="intro_btn">
+																		</a>
+																						<h1 class="white-text"></h1>
+																						<p class="white-text">
+																						</p>
+																		</div>
+														</div>
+														<!-- /home content -->
+
+										</div>
+						</div>
+		</div>
+</div>
+
+	<div class="content-otonom">
+	<div class="container-fluid">
+			<div class="row w-100">
+					<div class="col-lg-4" data-aos="fade-up">
+							<div class="img px-4 pt-5 position-relative">
+									<div class="content text-center"><center>
+									<img class="mt-2 ml-5" src="assets/img/walikota.png" alt="" style="width: 100%;"></center>
+							</div>
+					</div>
+					</div>
+					<div class="col-lg-4" data-aos="fade-up">
+							<div id="otonomi" class="content mt-5 pt-5 text-center">
+							<h2>Kenali tuan rumahnya</h2>
+							<center>
+							<p class="text-center">Pemerintahan Kota Batu dipimpin oleh seorang walikota yakni Dra Hj. Dewanti Rumpoko M.Si dan
+									Wakilnya yakni Punjul Santoso
+							</p>
+						</center>
+							<input type="button" value="Visi dan Misi" class="btn steelblue px-3" onclick="clik()">
+							</div>
+
+					<div id="myModal" class="modal">
+							<span class="close">×</span>
+							<div class="modal-conten" id="VMisi01">
+									<div id="VMisi"> 
+											<div class="row">
+													<div class="col-sm-12 text-center text-white" style="top: 45px;">
+													<h3 class="text-white">Visi</h3>
+															<p class="text-white">Desa Berdaya Kota Berjaya Terwujudnya Kota Batu Sebagai Sentra Agro 
+																	Wisata Internasional Yang Berkarakter, Berdaya Saing Dan Sejahtera
+													<h3 class="text-white">Misi</h3>
+															<ol type="1" class="text-left">
+																	<li>1. Meningkatkan Kualitas Kehidupan Sosial Masyarakat  Yang Berlandaskan Nilai Nilai Keagamaan  dan Kearifan Budaya Lokal</li>
+																	<li>2. Meningkatkan Pembangunan Kualitas dan Kesejahteraan Sumber Daya Manusia </li>
+																	<li>3. Mewujudkan Daya Saing Perekonomian Daerah yang Progresif, Mandiri  Berbasis Agrowisata</li>
+																	<li>4. Meningkatkan Pembangunan  Infrastruktur  dan Kawasan Perdesaan  Yang Berkualitas  dan Berwawasan Lingkungan</li>
+																	<li>5. Meningkatkan Tata Kelola Pemerintahan Yang Baik, Bersih dan Akuntabel Berorientasi pada Pelayanan Publik Yang Profesional                                        </li>
+															</ol>
+													</div>
+											</div>
+									</div>
+							</div>      
+					</div>
+					</div>
+					<div class="col-lg-4" data-aos="fade-up">
+							<div class="img px-4 pt-5 position-relative">
+									<div class="content text-center"><center></center>
+									<img class="mt-2 mr-5" src="assets/img/wakilwalikota1.png" alt="" style="width: 100%;"></center>
+							</div>
+					</div>
+					</div>
+			</div>
+		</div>
+	</div>
+			
+
+	<div class="mobile_content--otonom">
+			<div class="container-fluid">
+					<div class="row w-100">
+							<div class="col-lg-4" data-aos="fade-up">
+									<div class="img px-4 pt-5 position-relative">
+											<div class="content text-center"><center>
+											<img class="mt-2" src="assets/img/mobailotonom.png" alt="" style="width: 100%;"></center>
+									</div>
+							</div>
+							</div>
+							<div class="col-lg-4" data-aos="fade-up">
+									<div class="content mt-5 pt-5 text-center">
+									<h4>Kenali tuan rumahnya</h4>
+									<p>Pemerintahan Kota Batu dipimpin oleh seorang walikota yakni Dra Hj. Dewanti Rumpoko M.Si dan
+											Wakilnya yakni Punjul Santoso
+									</p>
+									<input type="button" value="Visi dan Misi" class="btn steelblue px-3" onclick="clik()">
+									</div>
+		
+							<div id="myModal" class="modal">
+									<span class="close">×</span>
+									<div class="modal-conten" id="VMisi01">
+											<div id="VMisi"> 
+													<div class="row">
+															<div class="col-sm-12 text-center text-white" style="top: 45px;">
+															<h4>Visi</h4>
+																	<p>Desa Berdaya Kota Berjaya Terwujudnya Kota Batu Sebagai Sentra Agro 
+																			Wisata Internasional Yang Berkarakter, Berdaya Saing Dan Sejahtera
+															<h4>Misi</h4>
+																	<ol type="1" class="text-left">
+																			<li>1. Meningkatkan Kualitas Kehidupan Sosial Masyarakat  Yang Berlandaskan Nilai Nilai Keagamaan  dan Kearifan Budaya Lokal</li>
+																			<li>2. Meningkatkan Pembangunan Kualitas dan Kesejahteraan Sumber Daya Manusia </li>
+																			<li>3. Mewujudkan Daya Saing Perekonomian Daerah yang Progresif, Mandiri  Berbasis Agrowisata</li>
+																			<li>4. Meningkatkan Pembangunan  Infrastruktur  dan Kawasan Perdesaan  Yang Berkualitas  dan Berwawasan Lingkungan</li>
+																			<li>5. Meningkatkan Tata Kelola Pemerintahan Yang Baik, Bersih dan Akuntabel Berorientasi pada Pelayanan Publik Yang Profesional                                        </li>
+																	</ol>
+															</div>
+													</div>
+											</div>
+									</div>      
+							</div>
+							</div>
+							
+					</div>
+				</div>
+			</div>
+		
+			<div id="intro1" >
+							<div class="section lg-padding d-flex">
+									<div class="bg-img w-100" style="background-image: url('assets/img/alun1.jpg'); top:10px; height: 250px;">
+											<div class="overlay"></div>
+									</div>
+											<div class="container">
+													<div class="row">
+															<!-- home content -->
+															<div class="col-lg-10 col-lg-offset-1 mt-5">
+																
+															</div>
+													</div>
+											</div>
+									</div>
+							</div>
+			<div class="container-fluid">
+			<div class="row">
+					<div class="col-lg-3"></div>
+					<div class="col-lg-6" data-aos="fade-down">
+							<div class="content p-5 text-center position-relative" style="top: -100px; box-shadow: 0px 0px 15px rgb(105, 105, 105); background-color: white">
+									" Batu dikenal sebagai salah satu kota wisata terkemuka di Indonesia karena potensi 
+									keindahan alam yang luar biasa. Kekaguman bangsa Belanda terhadap keindahan dan 
+									keelokan alam Batu membuat wilayah kota Batu disejajarkan dengan sebuah negara di 
+									Eropa yaitu Swiss dan dijuluki sebagai De Kleine Zwitserland atau Swiss Kecil di 
+									Pulau Jawa " 
+									<hr>
+									<a href="assets/pages/sejarah.html">
+											<input class="btn colorfun1 bold" type="button" value="Pelajari Lebih Lengkap">
+									</a>
+							</div>
+					</div>
+					<div class="col-lg-3"></div>
+			</div>
+			<!--AKSES ke Kota Batu-->
+
+	<div class="row">
+			<div class="col-lg-1"></div>
+			<div class="col-lg-4" data-aos="flip-up">
+					<div class="content" style="border-bottom: 2px solid black">
+							<h2>Preparation</h2>
+					</div>
+			</div>
+			<div class="col-lg-7"></div>
+	</div>
+
+	<div class="row">
+			<div class="col-lg-1"></div>
+			<div class="col-lg-6" data-aos="fade-up">
+					<div class="singleslider">
+							<div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31617.09851747608!2d112.50479437071338!3d-7.880698386625428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7887333731fe9f%3A0xea007d403123935!2sBatu%2C+Kec.+Batu%2C+Kota+Batu%2C+Jawa+Timur!5e0!3m2!1sid!2sid!4v1545481795513" width="100%" height="490px;" frameborder="0" style="border:0" allowfullscreen></iframe>
+							</div>
+							<div><img src="assets/img/Preparation.jpg" alt="" style="width: 100%; position: relative; top: 85px;"></div>
+							<div><img src="assets/img/information copy.jpg" alt="" style="width: 100%; position: relative; top: 120px;"></div>
+						</div>
+	</div>
+			<div class="col-lg-4" style="background-color: rgb(39, 37, 51); border-radius: 15px;" data-aos="fade-up">
+					<div class="content text-left text-white pl-2 py-4">
+							<h1>Ketahui Persiapan apa saja yang dibutuhkan</h1>
+							<h3>Kami memberitahukan persiapan persiapan mulai dari Bekal(Backpacking, Informasi, Keamanan Kesehatan) sampai Perjalanan ke Kota Batu</h3>
+					</div>
+					<div class="row">
+							<div class="col-12 mt-5 text-center">
+									<a href="assets/pages/akses.html">
+									<input type="button" value="Lihat Selengkapnya" class="btn colorfun1 px-5">
+							</a>
+							</div>
+					</div>
+			</div>
+			<div class="col-lg-1"></div>
+	</div>
+					
+	</div>
+
+			<!--/AKSES ke kota Batu-->
+			<div class="container-fluid">
+			<div class="row">
+					<div class="col-lg-1"></div>
+					<div class="col-lg-4" data-aos="flip-up">
+							<div class="content" style="border-bottom: 2px solid black;">
+									<h1>Discover</h1>
+							</div>
+					</div>
+					<div class="col-lg-7"></div>
+			</div>
+			<div class="row my-3" style="background-color: rgb(39, 37, 51); border-radius: 10px;">
+					<div class="col-lg-12">
+							<div class="row">
+									<div class="col-lg-12 px-5 pt-4" data-aos="zoo-out">
+											<div class="content text-center text-white rounded-5">
+													<h2>Temukan Segalanya</h2>
+													<p class="text-white paragraph">Buat diri anda senyaman mungkin karena <br>
+															Kota batu memiliki Destinasi Wisata yang sangat banyak</p>
+													</div>
+											</div>
+									</div>
+						</div>
+			</div>
+							<div class="row" style="background-color: rgb(39, 37, 51); border-radius: 5px;">
+											<div class="col-lg-7 text-center"data-aos="fade-up">
+													<div class="carousel">
+															<div>
+																	<div class="news">
+																			<div class="news-overlay"></div>
+																			<a href="assets/pages/paralayang.html" target="BLANK_">
+																			<img src="assets/img/paralayang.jpg" class="news-img" alt="" srcset="" style="z-index: -2">
+																			<div class="news-caption p-5">
+																					<h2 class="text-white">Nikmati keindahan kota batu dari atas bukit paralayang di Malam hari</h2>
+																			</a>
+																	</div>
+															</div>
+													</div>
+															<div>
+																	<div class="news">
+																			<div class="news-overlay"></div>
+																			<a href="assets/pages/cobanrondo.html" target="BLANK_">
+																			<img src="assets/img/Coban_Rondo.jpg" class="news-img" alt="" srcset="" style="z-index: -2">
+																			<div class="news-caption p-5">
+																					<h2 class=" text-white">Kesegaran kawasan air terjun Coban rondo</h2>
+																			</div>
+																	</a>
+																	</div>
+															</div>
+															<div>
+																	<div class="news">
+																			<div class="news-overlay"></div>
+																			<a href="assets/pages/museumangkut" target="BLANK_">
+																			<img src="assets/img/museumangkut.jpg" class="news-img" alt="" srcset="" style="z-index: -2">
+																			<div class="news-caption p-5">
+																					<h2 class=" text-white">Mobil mobil yang didatangkan dari seluruh penjuru dunia ada di Museum Angkut kota Batu </h2>
+																			</div>
+																	</a>
+																	</div>
+															</div>
+															<div>
+																	<div class="news">
+																			<div class="news-overlay"></div>
+																			<a href="assets/pages/ecogp.html" target="BLANK_">
+																			<img src="assets/img/Ecogreenpark.jpg" class="news-img" alt="" srcset="" style="z-index: -2">
+																			<div class="news-caption p-5">
+																					<h2 class=" text-white">Berwisata sambil belajar flora dan fauna di Ecogreen Park</h2>
+																			</div>
+																	</a>
+																	</div>
+															</div>
+															<div>
+																	<div  class="news">
+																			<div class="news-overlay"></div>
+																			<a href="assets/pages/bns.html" target="BLANK_">
+																			<img src="assets/img/bns.jpg" class="news-img" alt="" srcset="">
+																			<div class="news-caption p-5">
+																					<h2 class=" text-white">Berwisata pada malam hari tidak kalah seru kok </h2>
+																			</div>
+																	</a>
+																	</div>
+															</div>
+													</div>
+											</div>
+											<div class="col-lg-5" data-aos="fade-up">
+													<div class="bg-white mxh-440 ov-y-s p-3">
+															<div class="list-media">
+																	<a href="assets/pages/selecta.html" target="BLANK_">
+																	<div class="content mb-4" style="border: 2px solid rgb(224, 224, 224);">
+																	<div class="media">
+																			<img class="align-self-center img-fit mr-4" src="assets/img/selecta.jpg" alt="Selecta" style="height: 100%;">
+																			<div class="media-body">
+																					<h5 class="mb-3">Taman Rekreasi Selecta</h5>Jl. Raya Selecta No. 1, Tulungrejo, Bumiaji, Tulungrejo, Bumiaji, Kota Batu, Jawa Timur 65336
+																			</div>
+																	</div>
+																	</div>
+																	</a>
+																	<a href="assets/pages/batuflower.html" target="BLANK_">
+																	<div class="content  mb-4" style="border: 2px solid rgb(224, 224, 224);">
+																	<div class="media">
+																			<img class="align-self-center img-fit mr-4" src="assets/img/Batuflower.JPG" alt="img">
+																			<div class="media-body">
+																					<h5 class="mb-3">Batu Flower Garden</h5> Jl. Oro-Oro Ombo, Kehutanan, Kec. Batu, Kota Batu, Jawa Timur 65151
+																			</div>
+																	</div>
+																	</div>
+																	</a>
+																	<a href="assets/pages/jt1.html" target="BLANK_">
+																	<div class="content mb-4" style="border: 2px solid rgb(224, 224, 224);">
+																	<div class="media">
+																			<img class="align-self-center img-fit mr-4" src="assets/img/Jatimpak1.jpg" alt="img">
+																			<div class="media-body">
+																					<h5 class="mb-3">Jatim Park 1</h5>Jl. Kartika No.2, Sisir, Kec. Batu, Kota Batu, Jawa Timur 65315
+																			</div>
+																	</div>
+																	</div>
+																	</a>
+																	<a href="assets/pages/jt2.html" target="BLANK_">
+																	<div class="content mb-4" style="border: 2px solid rgb(224, 224, 224);">
+																	<div class="media">
+																			<img class="align-self-center img-fit mr-4" src="assets/img/jatim-park-2.jpg" alt="img">
+																			<div class="media-body">
+																					<h5 class="mb-3">Jatim Park 2</h5> Jl. Oro-Oro Ombo No.9A, Sisir, Kec. Batu, Kota Batu, Jawa Timur 65314
+																			</div>
+																	</div>
+																	</a>
+																	</div>
+															</div>
+													</div>
+													<div class="text-center">
+														<a href="assets/pages/discover.html">
+															<button class="btn colorfun1 w-50 mt-3 text-white bold">Lainnya</button>
+														</a>
+												</div>
+											</div>
+									</div>
+								</div>
+
+									</div>
+							</div>
+							<div id="intro1" >
+											<div class="section lg-padding d-flex mb-5">
+													<div class="bg-img w-100 mb-5" style="background-image: url('assets/img/cobanrondo.jpg'); top:10px; height: 250px;">
+															<div class="overlay"></div>
+													</div>
+															<div class="container">
+																	<div class="row">
+																			<!-- home content -->
+																			<div class="col-lg-12 col-lg-offset-1">
+																					<div class="home-content pt-5 mt-5" style="z-index:-2">
+																							<div class="row" data-aos="fade-up">
+																									<div class="col-lg-9 text-center">
+																											<input type="text" class="txt" placeholder="Cari nama wisata .. (Contoh: 'Museum')" style="width:100%;">
+																									</div>
+																									<div class="col-lg-3">
+																											<div class="content text-right w-100">
+																											<input type="button" value="Cari" class="btn px-5 py-2 position-relative colorfun1 bold" style="color: white; height: 48px; border: none; width: 100%;">                                     
+																									</div>
+																							</div>
+																							</div>
+																					</div>
+																			</div>
+																	</div>
+															</div>
+													</div>
+											</div>
+
+							<div class="container-fluid">
+									<div class="row pt-5">
+										<div class="col-md-1"></div>
+										<div class="col-md-4">
+											<div class="content" style="border-bottom: 2px solid black" >
+												<h1>Tourism</h1>
+											</div>
+										</div>
+									</div>
+									<div class="content--tourism">
+								<section class="page" id="tourism">			
+									<div class="row">
+										<div class="col-6">
+											<div class="col-12 tourism-col shadow-card animation-element slide-left">
+												<figure>
+													<img class="tourism-figure-img" src="assets/img/berlibur-taman-bermain.jpg">
+													<figcaption class="tourism-image-caption">
+														<h1 class="pt-4">DESTINATION</h1>
+													</figcaption>
+												</figure>
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="col-12 tourism-col shadow-card animation-element slide-right">
+												<figure>
+													<img class="tourism-figure-img" src="assets/img/hotelc.jpg">
+													<figcaption class="tourism-image-caption tourism-hotel">
+														<h1 class="pt-4">HOTELS</h1>
+													</figcaption>
+												</figure>
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="col-12 tourism-col shadow-card animation-element slide-left">
+												<figure>
+													<img class="tourism-figure-img" src="assets/img/kuliner.jpg">
+													<figcaption class="tourism-image-caption tourism-culinary">
+														<h1 class="pt-4">CULINARY</h1>
+													</figcaption>
+												</figure>
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="col-12 tourism-col shadow-card animation-element slide-right">
+												<figure>
+													<img class="tourism-figure-img" src="assets/img/budaya.jpg">
+													<figcaption class="tourism-image-caption tourism-events">
+														<h1 class="pt-4">EVENTS</h1>
+													</figcaption>
+												</figure>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+									<div class="mobile_content--tourism">
+									<div class="row">
+											<div class="col-12 my-2">
+												<div class="col-12 tourism-col shadow-card animation-element slide-left">
+													<figure>
+														<img class="tourism-figure-img" src="assets/img/berlibur-taman-bermain.jpg">
+														<figcaption class="tourism-image-caption">
+															<h1 class="pt-4">DESTINATION</h1>
+														</figcaption>
+													</figure>
+												</div>
+											</div>
+											<div class="col-12  my-2">
+												<div class="col-12 tourism-col shadow-card animation-element slide-right">
+													<figure>
+														<img class="tourism-figure-img" src="assets/img/hotelc.jpg">
+														<figcaption class="tourism-image-caption tourism-hotel">
+															<h1 class="pt-4">HOTELS</h1>
+														</figcaption>
+													</figure>
+												</div>
+											</div>
+											<div class="col-12 my-2">
+												<div class="col-12 tourism-col shadow-card animation-element slide-left">
+													<figure>
+														<img class="tourism-figure-img" src="assets/img/kuliner.jpg">
+														<figcaption class="tourism-image-caption tourism-culinary">
+															<h1 class="pt-4">CULINARY</h1>
+														</figcaption>
+													</figure>
+												</div>
+											</div>
+											<div class="col-12 my-2">
+												<div class="col-12 tourism-col shadow-card animation-element slide-right">
+													<figure>
+														<img class="tourism-figure-img" src="assets/img/budaya.jpg">
+														<figcaption class="tourism-image-caption tourism-events">
+															<h1 class="pt-4">EVENTS</h1>
+														</figcaption>
+													</figure>
+												</div>
+											</div>
+										</div>
+									</div>
+										
+									<center>
+									<div class="section-link animation-element slide-left">
+										<a href="assets/pages/tourism.html" class="btn colorfun1 px-5 shadow-card">Go to page</a>
+									</div>
+								</center>
+								</section>
+							</div>
+							
+							
+							<div class="container-fluid">
+									<div class="row mt-5">
+											<div class="col-lg-1"></div>
+											<div class="col-lg-4"data-aos="flip-up"> 
+													<div class="content" style="border-bottom: 2px solid black">
+															<h1>Gallery</h1>
+													</div>
+											</div>
+											<div class="col-lg-7"></div>
+									</div>
+									<div class="container-fluid">
+									<div class="row">
+									<div class="col-lg-12">
+											<div class="container-fluid ">
+												<div class="col-lg-4">
+													<div>
+															<a href="assets/pages/gallery.html">
+															<div class="column" data-aos="fade-up">
+																	<!-- Post-->
+																	<div class="post-module">
+																			<!-- Thumbnail-->
+																			<div class="fotoslider">
+																					<div class="thumbnail"><img src="assets/img/wmuseumangkut.jpg" /></div>
+																					<div class="thumbnail"><img src="assets/img/wecogp.jpg" /></div>
+																					<div class="thumbnail"><img src="assets/img/wjatimp.jpg" /></div>
+																			</div>
+																			<!-- Post Content-->
+																			<div class="post-content">
+																					<div class="category colorfun1">Photos</div>
+																					<h5 class="mb-3">Wisata Edukasi</h5>
+																					<p class="text-primary"><b>Berwisata sambil belajar</b></p>
+																					<p class="description">Ada banyak wisata wisata pembelajaran di kota Batu ini seperti : Museum Angkut, Eco green park,
+																							Batu Secret zoo dan masih banyak yang lainnya
+																					</p>
+																					<div class="post-meta"><span class="timestamp"><i class="fa fa-clock-">o</i> </span><span
+																									class="comments"><i class="fa fa-comments"></i><a href="#"></a></span></div>
+																			</div>
+																	</div>
+															</div>
+													</div>
+											</div>
+											<div class="col-lg-4">
+													</a>
+													<div>
+													<a href="assets/pages/gallery.html"></a>
+															<div class="column " data-aos="fade-up">
+																	<!-- Post-->
+																	<div class="post-module">
+																			<!-- Thumbnail-->
+																			<div class="fotoslider">
+																					<div class="thumbnail"><img src="assets/img/tamanlangit.jpg" /></div>
+																					<div class="thumbnail"><img src="assets/img/wparalayang.jpg" /></div>
+																					<div class="thumbnail"><img src="assets/img/wcobanrondo.jpg" /></div>
+																			</div>
+																			<!-- Post Content-->
+																			<div class="post-content">
+																					<div class="category">Photos</div>
+																					<h5 class="mb-3">Wisata alam</h5>
+																					<p class="text-primary"><b>Berwisata dengan menikmati alam di kota Batu</b></p>
+																					<p class="description">Batu merupakan daerah dataran tinggi / Pegunungan jadi Wisata alam dibatu meliputi spot pemandangan 
+																							Paralayang Batu, Coban Talun, Tadan Masih Banyak yang lainnya
+																					</p>
+																					<div class="post-meta"><span class="timestamp"><i class="fa fa-clock-">o</i> </span><span
+																									class="comments"><i class="fa fa-comments"></i><a href="#"></a></span></div>
+																			</div>
+																	</div>
+															</div>
+													</div>
+											</div>
+											<div class="col-lg-4">
+													</a>
+													<div>
+															<a href="assets/pages/gallery.html">
+															<div class="column " data-aos="fade-up">
+																	<!-- Post-->
+																	<div class="post-module">
+																			<!-- Thumbnail-->
+																	<div class="fotoslider">
+																			<div class="thumbnail"><img src="assets/img/kuliner.jpg" /></div>
+																			<div class="thumbnail"><img src="assets/img/Posketan.jpg" /></div>
+																			<div class="thumbnail"><img src="assets/img/kuliner1.jpg" /></div>
+																	</div>
+																			<!-- Post Content-->
+																			<div class="post-content">
+																					<div class="category">Photos</div>
+																					<h5 class="mb-3">Wisata kuliner</h5>
+																					<p class="text-primary"><b>Berwisata dengan mengunjungi restoran dan mencicipi makanan khas Kota Batu</b></p>
+																					<p class="description">Buat Wisata anda dengan Rasa kenyang makanan khas Batu ,banyak sekali wisata
+																									 kuliner di kota Batu ini yang harus anda kunjungi seperti : Pos Ketan, Batuque, dan masih banyak lainnya</p>
+																					<div class="post-meta"><span class="timestamp"><i class="fa fa-clock-">o</i> </span><span
+																									class="comments"><i class="fa fa-comments"></i><a href="#"></a></span></div>
+																			</div>
+																	</div>
+															</div>
+													</div>
+															</a>
+													</div>
+											</div>
+									</div>
+							</div>
+					</div>
+			</div>
+							
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h3>Daftar Harga Tiket</h3>
+				<table border="2" class="d-inline-block">
+					<tr>
+						<th class="px-5">Pariwisata</th>
+						<th class="px-5">Harga Tiket Masuk</th>
+					</tr>
+					<tr>
+						<td>Coban Rondo</td>
+						<td>Rp. 45.000,-</td>
+					</tr>
+					<tr>
+						<td>Coban Talun</td>
+						<td>Rp. 50.000,-</td>
+					</tr>
+					<tr>
+						<td>Museum Angkut</td>
+						<td>Rp. 55.000,-</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid footer">
+			<div class="container-fluid">
+				<div class="row pt-5 px-5">
+					<div class="col-lg-12">
+						<div class="content text-center">
+							<img src="assets/img/Batufooter copy.png" alt="BatuCation" style="width: 15%;">
+						</div>
+							<div class="row position-relative">
+										<div class="col-lg-12 footer">
+											<div class="position-relative" style="top: -20px;">      
+												<div class="row footer-2">
+													<div class="col-4 px-4  ">
+														<select name="language" id="language">
+																		<option value="indonesia" id="bahasa" selected >Bahasa Indonesia</option>
+																		<option value="english" id="english">English</option>
+														</select>
+													</div>
+													<dic class="col-2"></dic>
+													<div class="col-6">
+															<ul class="socials">
+																<li><a href="#" class="fa fa-facebook"></a></li>
+																<li><a href="#" class="fa fa-twitter"></a></li>
+																<li><a href="#" class="fa fa-instagram"></a></li>
+																<li><a href="#" class="fa fa-google-plus"></a></li>
+																<li><a href="https://www.youtube.com/channel/UCOCCvg_UwPWk_CHnTI3OWbQ" target="_blank" class="fa fa-youtube-play"></a></li>
+															</ul>
+														</div>	
+													
+												</div>	
+											</div>	
+										</div>
+									<div class="row footer-3">
+								<div class="col-12">
+									<div class="content text-center text-white">
+										2018 © batucation.co // Designed by Team SE-Ethics</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	
+
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery-1.11.0.min.js"></script>
+<script src="assets/js/script.js" type="text/javascript"></script>
+<script src="assets/js/navbar.js" type="text/javascript"></script>
+<script src="assets/js/scroll-animate.js" type="text/javascript"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/slick.js"></script>
+<!-- <script>
+    $('.youtube-video-btn-1').click(function(){
+      $('.youtube-video-1')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+    })
+
+    // LANG INDEX
+      $('#language').on('change', function () {
+          var url = $(this).val(); // get selected value
+          if (url == 'english') { // require a URL
+              window.location = 'assets/eng/index.html'; // redirect
+          }
+          else if (url == 'indonesia'){
+              window.location = 'index.html'; // redirect
+          }
+          else {}
+          return false;
+      });
+</script>
+<script type="text/javascript">
+	function atas()
+	{
+	window.location =("#intro");
+	}
+	</script> -->
+<script>
+				  var modal = document.getElementById('myModal');
+            var btn = document.getElementById('btn');
+            var modalImg = document.getElementById("VMisi");
+            var captionText = document.getElementById("caption");
+            function clik(){
+                modal.style.display = "block";
+                $('#VMisi').removeClass('d-none').addClass('d-inline');
+                modalImg.style.display = "block";
+            }
+            
+            var span = document.getElementsByClassName("close")[0];
+            
+            span.onclick = function() { 
+                modal.style.display = "none";
+            }
+						
+</script>
+<script>
+		
+// 		$(document).ready(function(){
+// 		$('.center').slick({
+// 				dots: true,
+// 				infinite: true,
+// 				speed: 300,
+// 				slidesToShow: 1,
+// 				adaptiveHeight: true
+// 		})
+// });
+$('.carousel').slick({
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				autoplay: true,
+		});
+
+		$('.intro-slider').slick({
+				slidesToShow: 1,
+				dots: true,
+				autoplay: true,
+		});
+
+		$('.fotoslider').slick({
+		autoplay: true,
+		arrows: false,
+		autoplaySpeed: 5000,
+});
+$('.singleslider').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+})
+
+		</script>
+		<script>
+		var txt = document.getElementsByClassName('.nav-search');
+			function Wwidth(){
+				txt.style.width = '100%';
+			}
+		</script>
+		<script>
+		
+		</script>
+</body>
+</html>
